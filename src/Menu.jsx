@@ -1,20 +1,21 @@
 import './Menu.css'
 
-const Menu =()=>{
-
+const Menu=()=>{
 
     return (
         <div>
-
-        <ul class="nav">
-        <li class="nav-item">
-        <a class="nav-link active" href="/home">
-            Home
-    </a>
+        <ul className="nav">
+        <li className="nav-item">
+        <a className = "nav-link active" href="/home"> Home</a>
         </li>
-            </ul>
-                </div>
+         <li className="nav-item">
+        <a className = "nav-link" href="/pokeflex"> PokeFlex</a>
+        </li>
+         <li className="nav-item">
+        <a className = "nav-link active" href="/pokegrid"> PokeGrid</a>
+        </li>
+        </ul>
+        </div>
     )
 }
-
 export default Menu
